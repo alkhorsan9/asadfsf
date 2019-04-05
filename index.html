@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="seha.sa.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.lazyload.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="searchindex.js"></script>
+<script src="wb.sitesearch.min.js"></script>
+<script>
+var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
+function searchPage(features)
+{
+   var element = document.getElementById('SiteSearch1');
+   window.open('sitesearch1-results.html?q='+encodeURIComponent(element.value), '', features);
+   return false;
+}
+</script>
+<script src="searchindex.js"></script>
+<script src="wb.sitesearch.min.js"></script>
+<script>
+var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
+function searchPage(features)
+{
+   var element = document.getElementById('SiteSearch2');
+   window.open('sitesearch2-results.html?q='+encodeURIComponent(element.value), '', features);
+   return false;
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   searchParseURL('SiteSearch1');
+   searchAutoComplete('SiteSearch1');
+   searchParseURL('SiteSearch2');
+   searchAutoComplete('SiteSearch2');
+   $("#Dialog1").dialog(
+   {
+      title: 'مرحبا على منصة صحة',
+      modal: true,
+      width: 118,
+      height: 98,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: true,
+      draggable: true,
+      closeOnEscape: true,
+      show: false,
+      hide: false,
+      autoOpen: true,
+      classes: {'ui-dialog': 'Dialog1'} 
+   });
+   $('img[data-src]').lazyload();
+});
+</script>
+</head>
+<body>
+<div id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:99px;z-index:5;">
+<div id="Layer1_Container" style="width:814px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_CssMenu1" style="position:absolute;left:15px;top:45px;width:336px;height:31px;z-index:0;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="https://www.seha.sa/ManagedAccounts/CreateMedicalAccount" target="_self">&#1578;&#1587;&#1580;&#1610;&#1604;&nbsp;&#1581;&#1587;&#1575;&#1576;&nbsp;&#1580;&#1583;&#1610;&#1583;</a>
+</li>
+<li><a role="menuitem" href="https://www.seha.sa/Account/Login" target="_self">&#1578;&#1587;&#1580;&#1610;&#1604;&nbsp;&#1583;&#1582;&#1608;&#1604;</a>
+</li>
+<li><a role="menuitem" href="https://www.seha.sa/#" target="_self">&#1575;&#1604;&#1582;&#1583;&#1605;&#1575;&#1578;</a>
+</li>
+<li><a role="menuitem" href="https://www.seha.sa/" target="_self">&#1575;&#1604;&#1585;&#1574;&#1610;&#1587;&#1610;&#1577;</a>
+</li>
+</ul>
+</div>
+<div id="wb_Image1" style="position:absolute;left:1009px;top:39px;width:109px;height:43px;z-index:1;">
+<img src="images/SehaLogo.png" id="Image1" alt=""></div>
+</div>
+</div>
+<div id="wb_Image2" style="position:absolute;left:5px;top:97px;width:1565px;height:258px;z-index:6;">
+<img src="images/calender00000.png" id="Image2" alt=""></div>
+<div id="wb_Text1" style="position:absolute;left:154px;top:419px;width:1225px;height:88px;text-align:center;z-index:7;">
+<span style="color:#2E8B57;font-family:Arial;font-size:27px;">الاستعلام عن الإجازات المرضية<br></span><span style="color:#000000;font-family:Arial;font-size:27px;"><br></span><span style="color:#000000;font-family:Arial;font-size:21px;">خدمة الاستعلام عن الـإجازات المرضية تتيح لك الاستعلام عن حالة طلبك للإجازة وتمكنك من تصدير وطباعة نسخة لها</span></div>
+<div id="Layer2" style="position:absolute;text-align:left;left:8px;top:538px;width:1559px;height:292px;z-index:8;">
+<div id="wb_CssMenu2" style="position:absolute;left:697px;top:185px;width:312px;height:93px;z-index:2;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="./الإجازات المرضية – منصة صحة.mhtml" target="_self" title="&#1605;&#1593;&#1604;&#1608;&#1605;&#1575;&#1578; &#1575;&#1604;&#1605;&#1583;&#1582;&#1604;&#1577; &#1589;&#1581;&#1610;&#1581;&#1577; ">&#1575;&#1587;&#1578;&#1593;&#1604;&#1575;&#1605;</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="wb_Text2" style="position:absolute;left:828px;top:919px;width:322px;height:44px;text-align:center;z-index:9;">
+<span style="color:#000000;font-family:Arial;font-size:19px;">منصة صحة معتمدة من قبل وزارة الصحة © 2018<br>الشروط والأحكام | دليل الاستخدام</span></div>
+<div id="wb_Text3" style="position:absolute;left:140px;top:908px;width:248px;height:23px;z-index:10;">
+<span style="color:#000000;font-family:Arial;font-size:13px;"> </span><span style="color:#000000;font-family:Arial;font-size:20px;">support@seha.sa</span></div>
+<div id="wb_Text4" style="position:absolute;left:211px;top:942px;width:249px;height:22px;z-index:11;">
+<span style="color:#4682B4;font-family:Arial;font-size:19px;"><strong>920002005</strong> </span></div>
+<input type="submit" id="Button1" name="" value="Submit" style="position:absolute;left:154px;top:941px;width:45px;height:22px;z-index:12;">
+<div id="wb_Text5" style="position:absolute;left:187px;top:866px;width:252px;height:32px;z-index:13;">
+<span style="color:#008B8B;font-family:Arial;font-size:27px;"><strong>للاستفسارات</strong></span></div>
+<div id="wb_Image5" style="position:absolute;left:109px;top:908px;width:31px;height:27px;z-index:14;">
+<img src="cornmanthe3rd-metronome-communication-email-blue.ico" id="Image5" alt=""></div>
+<div id="wb_Image6" style="position:absolute;left:167px;top:944px;width:20px;height:18px;z-index:15;">
+<img src="images/تنزيل.jpg" id="Image6" alt=""></div>
+<div id="wb_Image4" style="position:absolute;left:1150px;top:886px;width:111px;height:115px;z-index:16;">
+<img src="images/placeholder.gif" data-src="images/LeanFooter.png" data-src-retina="images/LeanFooter.png" id="Image4" alt=""></div>
+<div id="wb_Image3" style="position:absolute;left:1269px;top:886px;width:110px;height:115px;z-index:17;">
+<img src="images/moh.png" id="Image3" alt=""></div>
+<form name="SiteSearch1_form" id="SiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
+<input type="text" id="SiteSearch1" style="position:absolute;left:469px;top:570px;width:647px;height:37px;z-index:18;" name="SiteSearch1" value="" spellcheck="false" placeholder="&#1585;&#1602;&#1605; &#1575;&#1604;&#1591;&#1604;&#1576;" role="searchbox"></form>
+<form name="SiteSearch2_form" id="SiteSearch2_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)">
+<input type="text" id="SiteSearch2" style="position:absolute;left:469px;top:632px;width:647px;height:37px;z-index:19;" name="SiteSearch1" value="" spellcheck="false" placeholder="&#1585;&#1602;&#1605; &#1575;&#1604;&#1607;&#1608;&#1610;&#1577; /&#1575;&#1604;&#1575;&#1602;&#1575;&#1605;&#1577;" role="searchbox"></form>
+<div id="Dialog1">
+</div>
+
+</body>
+</html>
